@@ -7,7 +7,16 @@ body, html {
     color: #ff0000;
     font-size: 150%;
   }
-  
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.cinzel-<uniquifier> {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
   section {
     padding: 100px 20px;
     text-align: center;
