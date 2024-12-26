@@ -138,11 +138,11 @@ body, html {
  }
 
  #copy-button {
-    background: linear-gradient(120deg, #fcff9e, #c67700, #12c2e9, #c471ed, #f64f59);
+    background: #f64f59);
     color: white;
     border: none;
     padding: 0px 20px;
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 9px;
     margin-top: 10px;
