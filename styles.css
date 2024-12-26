@@ -32,7 +32,7 @@ body, html {
     width: 350px;
     margin: 20px 0;
     border-radius: 10%;
-    animation: photo-bounce 5s infinite ease-in-out;
+    animation: photo-bounce 5s ease-in-out 3;
   }
   
   .subtitle {
@@ -139,14 +139,13 @@ body, html {
 
  #copy-button {
     background: black;
-    color: white;
     border: none;
     padding: 0px 20px;
     font-size: 1rem;
     cursor: pointer;
     border-radius: 9px;
     margin-top: 10px;
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Cinzel', serif;
     overflow-x: hidden;
     color: #ffffff;
   }
@@ -154,4 +153,8 @@ body, html {
 #copy-button:hover {
   background-color: #ff0000;
     ;
+}
+
+#copy-button:focus {
+    outline: 2px dashed #ff0000;
 }
