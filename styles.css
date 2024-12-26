@@ -1,14 +1,14 @@
-body, html {
+html, body {
     margin: 0;
     padding: 0;
+    height: 100%; /* Tambahkan properti ini */
     overflow-x: hidden;
     font-family: 'Cinzel', serif;
     background: linear-gradient(120deg, #fcdf8e 0%, #E0C3FC 100%);
     background-size: cover; /* Memastikan background menutupi layar */
-    background-attachment: fixed; /* Membuat background tidak ikut scroll */
-    color: #000000;
-    font-size: 150%;
+    background-attachment: fixed; /* Membuat background tetap */
 }
+
 
 * {
     margin: 0;
