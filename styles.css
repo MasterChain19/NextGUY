@@ -1,12 +1,11 @@
-html, body {
+body, html {
     margin: 0;
     padding: 0;
-    height: 100%; /* Tambahkan properti ini */
     overflow-x: hidden;
-    font-family: 'Cinzel', serif;
+    font-family: 'Nabla', sans-serif;
     background: linear-gradient(120deg, #fcdf8e 0%, #E0C3FC 100%);
-    background-size: cover; /* Memastikan background menutupi layar */
-    background-attachment: fixed; /* Membuat background tetap */
+    color: #ff0000;
+    font-size: 150%;
 }
 
 
